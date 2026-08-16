@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 Mentora — AI Learning Assistant
+# 🎓  AI-Learning-Hub
 
 **Transform your PDFs into summaries, flashcards, quizzes & more — powered by AI.**
 
@@ -14,9 +14,9 @@
 
 ---
 
-## 🧠 What is Mentora?
+## 🧠 What is AI-Learning-Hub?
 
-Studying from long PDFs is slow and tedious. **Mentora** makes it faster and smarter by turning any PDF into interactive learning tools — in seconds.
+Studying from long PDFs is slow and tedious. **AI-Learning-Hub** makes it faster and smarter by turning any PDF into interactive learning tools — in seconds.
 
 > Upload a PDF → Get a summary, flashcards, a quiz, and a chat assistant that *knows your document*.
 
