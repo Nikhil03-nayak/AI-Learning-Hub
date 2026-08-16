@@ -28,7 +28,7 @@ app.use(
     origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
-    credentials: true,
+    //credentials: true,
   }),
 );
 // Body parser middleware to parse incoming JSON data
@@ -50,7 +50,7 @@ app.get("/health", (req, res) => {
 app.get("/", (req, res) => {
   res.json({
     success: true,
-    message: "Mentora AI Backend is running...",
+    message: "AI Learning Hub Backend is running...",
   });
 });
 
@@ -75,7 +75,7 @@ app.use((req, res) => {
 });
 
 const PORT = process.env.PORT || 8000;
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server is running in ${process.env.NODE_ENV} on port ${PORT}`);
 });
 
