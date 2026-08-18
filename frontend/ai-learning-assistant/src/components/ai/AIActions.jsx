@@ -65,7 +65,7 @@ const AIActions = () => {
             </div>
             <div>
               <h3 className="text-lg font-semibold text-slate-900">
-                Mentora AI Assistant
+                AI Learning Hub Assistant
               </h3>
               <p className="text-xs text-slate-500">Powered by Advanced AI</p>
             </div>

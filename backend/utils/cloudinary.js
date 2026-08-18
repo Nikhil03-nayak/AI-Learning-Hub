@@ -52,7 +52,7 @@ export const uploadPDFToCloudinary = async (localFilePath, options = {}) => {
   try {
     const response = await cloudinary.uploader.upload(localFilePath, {
       resource_type: "image",
-      folder: "mentora-pdfs",
+      folder: "ai-learning-hub-pdfs",
       type: "upload",
       //access_mode: "public",
       ...options,

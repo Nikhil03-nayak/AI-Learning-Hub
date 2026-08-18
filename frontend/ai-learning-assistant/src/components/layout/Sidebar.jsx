@@ -53,7 +53,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
               <BrainCircuit size={20} strokeWidth={2.5} />
             </div>
             <h1 className="text-sm md:text-base font-bold text-slate-900 tracking-tight">
-              Mentora AI
+              AI Learning Hub
             </h1>
           </div>
 

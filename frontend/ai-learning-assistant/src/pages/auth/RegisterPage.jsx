@@ -52,7 +52,7 @@ const RegisterPage = () => {
               Create an Account
             </h1>
             <p className="text-sm text-slate-500">
-              Start your learning journey with Mentora
+              Start your learning journey with AI Learning Hub
             </p>
           </div>
 
