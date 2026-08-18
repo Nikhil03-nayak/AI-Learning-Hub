@@ -4,7 +4,7 @@
 
 **Transform your PDFs into summaries, flashcards, quizzes & more — powered by AI.**
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-blue?style=for-the-badge)](https://mentora-ai-zeta.vercel.app/login)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-blue?style=for-the-badge)](https://ai-learning-hub-opal.vercel.app)
 ![Node.js](https://img.shields.io/badge/Node.js-LTS-green?style=for-the-badge&logo=node.js)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)
@@ -46,43 +46,6 @@ Studying from long PDFs is slow and tedious. **AI-Learning-Hub** makes it faster
 
 ---
 
-## 🖼️ Screenshots
-
-### 🔑 Login
-![Login](screenshots/login.png)
-
----
-
-### 📊 Dashboard
-![Dashboard](screenshots/dashboard.png)
-
----
-
-### 📤 Upload PDF
-![Upload](screenshots/upload-pdf.png)
-
----
-
-### 📝 Summary
-![Summary](screenshots/summary.png)
-
----
-
-### 🃏 Flashcards
-![Flashcards](screenshots/flashcards.png)
-
----
-
-### 🧪 Quiz
-![Quiz](screenshots/quiz.png)
-
----
-
-### 💬 Chat with Document
-![Chat](screenshots/chat.png)
-
----
-
 ## 🛠️ Tech Stack
 
 ### 🎨 Frontend
@@ -115,7 +78,7 @@ Studying from long PDFs is slow and tedious. **AI-Learning-Hub** makes it faster
 ## 📁 Project Structure
 
 ```
-Learn-with-AI/
+AI-Learning-Hub/
 ├── backend/
 │   ├── config/
 │   ├── controllers/
@@ -125,7 +88,7 @@ Learn-with-AI/
 │   ├── utils/
 │   └── server.js
 └── frontend/
-    └── mentora/
+    └── ai-learning-assistant/
         ├── src/
         └── public/
 ```
@@ -149,8 +112,8 @@ Before you begin, make sure you have:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <YOUR_REPO_URL>
-cd Learn-with-AI
+git clone https://github.com/Nikhil03-nayak/AI-Learning-Hub.git
+cd AI-Learning-Hub
 ```
 
 ---
@@ -197,7 +160,7 @@ npm run dev
 
 **Install dependencies:**
 ```bash
-cd frontend/mentora
+cd frontend/ai-learning-assistant
 npm install
 ```
 
@@ -225,9 +188,9 @@ npm run dev
 
 ## ⚙️ Configuration Notes
 
-> 🔓 **CORS**: Backend currently allows all origins (`"*"`). For production, restrict this to your deployed frontend URL.
+> 🔓 **CORS**: Backend currently allows all origins (`"*"`). For production hardening, restrict this to your deployed frontend URL.
 
-> 📂 **Uploads**: Backend serves local static files at `GET /uploads/...`.
+> 📂 **Uploads**: PDFs are stored in Cloudinary for cloud storage, while the backend exposes local static files at `/uploads/...` when applicable.
 
 > 🔗 **API prefix**: All backend routes are prefixed with `/api`.
 
@@ -253,13 +216,7 @@ Contributions are welcome! Here's how:
 3. 💾 **Commit** your changes with clear messages
 4. 📬 **Open a PR** describing what changed and why
 
----
 
-## 📜 License
-
-Add your license here (e.g., MIT) and include a `LICENSE` file at the repo root.
-
----
 
 <div align="center">
 
